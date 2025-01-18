@@ -3,4 +3,8 @@ This requires git, make and gcc.
 
 ## Installation
 ### CURL
+
+```
+sudo su -
 bash <(curl -s https://raw.githubusercontent.com/leon8326/pacstall/main/run.sh)
+```
