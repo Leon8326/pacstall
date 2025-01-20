@@ -34,7 +34,7 @@ cd pacman
 
 # Checkout the latest version
 echo "Checking out version $LATEST_VERSION..."
-git checkout "v$LATEST_VERSION" || error_exit "Failed to checkout version $LATEST_VERSION."
+git checkout "$LATEST_VERSION" || error_exit "Failed to checkout version $LATEST_VERSION."
 
 # Build and install pacman
 echo "Building pacman..."
